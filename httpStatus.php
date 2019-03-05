@@ -4,6 +4,7 @@
  * User: Jason Olson
  * Date: 3/5/2019
  * Time: 9:28 AM
+ * License: MIT
  */
 
 namespace RedWebDev;

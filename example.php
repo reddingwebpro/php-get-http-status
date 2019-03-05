@@ -1,15 +1,12 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: jason_06tt1g7
+ * Created by ReddingWebDev.
+ * User: Jason Olson
  * Date: 3/5/2019
- * Time: 9:30 AM
+ * Time: 9:28 AM
+ * License: MIT
  */
-
 require 'httpStatus.php';
-
 $url = "https://google.com"; // url to test
-
 $http = new \RedWebDev\httpStatus();
-
 $status = $http->status($url);
