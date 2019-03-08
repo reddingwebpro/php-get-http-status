@@ -4,6 +4,14 @@ This class was designed in direct response to a forum post at PHPClasses for a c
 # Configuration
 In the example file you see we call the class, and we define the target URL as the variable $url. The data is returned as an integer value corresponding to the HTTP status code.
 
-#Revision History:
+# Requirements
+This code requires the CURL library to be installed. This is extremely common to find, but if you're having problems, check by running phpinfo(); and checking that it is installed.
+
+# Revision History:
 * 1.0 Initial Release
+* 1.1 Minor code cleanup, formatting, new license
+
+## License
+GNU General Public License v3.0 (GNU GPLv3)
+http://www.gnu.org/licenses/gpl-3.0-standalone.html
 
